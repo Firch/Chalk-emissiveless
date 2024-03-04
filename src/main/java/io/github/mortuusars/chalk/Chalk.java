@@ -72,7 +72,6 @@ public class Chalk
                                 .instabreak()
                                 .noOcclusion()
                                 .noCollission()
-                                .emissiveRendering((state, level, pos) -> state.getValue(ChalkMarkBlock.GLOWING))
                                 .sound(SoundType.GRAVEL))));
             }
         }
